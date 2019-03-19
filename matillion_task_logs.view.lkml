@@ -145,9 +145,13 @@ view: matillion_task_logs {
       component_name,
       summary_group_name,
       summary_project_name,
-      summary_version_name,
-      summary_environment_name,
-      summary_job_name
+      summary_job_name,
+      message,
+      start_date,
+      end_date,
+      summary_enqueued_time,
+      start_time,
+      end_time
     ]
   }
 }
