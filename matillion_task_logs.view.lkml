@@ -142,16 +142,16 @@ view: matillion_task_logs {
   set: detail {
     fields: [
       id,
-      component_name,
-      summary_group_name,
-      summary_project_name,
-      summary_job_name,
-      message,
       start_date,
       end_date,
       summary_enqueued_time,
       start_time,
-      end_time
+      end_time,
+      component_name,
+      summary_group_name,
+      summary_project_name,
+      summary_job_name,
+      message
     ]
   }
 }
