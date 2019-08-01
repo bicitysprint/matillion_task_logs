@@ -10,4 +10,6 @@ datagroup: matillion_task_logs_default_datagroup {
 
 persist_with: matillion_task_logs_default_datagroup
 
-explore: matillion_task_logs {}
+explore: matillion_task_logs {
+  hidden: yes
+}
